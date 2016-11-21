@@ -1,0 +1,6 @@
+before_script:
+  - composer install
+
+jobs:
+  script: 
+    - php vendor/bin/phpcs app/ --standard=PSR2

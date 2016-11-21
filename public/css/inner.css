@@ -1,0 +1,160 @@
+.minhs{
+position:relative;
+display:block;
+min-height:700px;
+}
+.minhs2{
+position:relative;
+display:block;
+min-height:600px;
+}
+.toparea{
+	position:relative;
+	display:block;
+	/*height: 0px;*/
+	}
+	
+.width100p{
+width:100%;
+position:relative;
+	display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.titleAf{
+font-size:1.2em;
+font-weight:700;
+}
+	
+.qrcode{
+position:relative;
+	display:block;
+	width:200px;
+	height:200px;
+	background-image:url("../img/qr.jpg");
+	margin-left:auto;
+	margin-right:auto;
+}	
+	
+.citcit{
+	position:relative;
+	display:block;
+	height: 1px;
+	width:1px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.newsbox{
+padding:20px;
+padding-top:20px;
+height:100%;
+min-height:500px;
+line-height:2em;
+font-size: 16px;
+}
+.newsbox img{ width:100%;}
+.linesf{
+position:relative;
+display:block;
+width:881px;
+height:23px;
+background-image:url("../img/lines.png");
+
+}
+.newsbox2{
+padding:10px;
+padding-top:10px;
+font-weight:700;
+height:100%;
+min-height:40px;
+}
+.ptitle{
+	position:relative;
+	display:block;
+	background-repeat:no-repeat;
+	background-image:url("../img/pnews.jpg");
+	width:100%;
+	height:77px;
+	overflow:hidden;
+	top:10px;
+text-align: center;
+	padding:2px;
+	color:#fff;
+	font-size:2em;
+	/*font-weight:100;*/
+line-height:2.8em;
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-shadow:3px 3px 8px #000;
+	background-position: center center;
+	/*margin-bottom:2%;*/
+}
+/* ------MV------ */
+
+.video-container {
+    position: relative;
+    padding-bottom:50%;
+    padding-top:0em;
+    height: 0;
+	overflow: hidden;
+	display:block;
+	text-align: left;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+    width: 100%; height: 100%;
+}
+	
+@media (max-width: 1920px) {
+
+	
+	
+}
+
+@media (max-width: 1024px) {
+.w100{
+display:none;
+}
+.w100m{
+width:100%;
+
+display:block;
+z-index:9003;
+}
+
+.toparea{
+	position:relative;
+	display:block;
+	/*height: 170px;*/
+	}
+.citcit{
+display:none;
+}
+.ptitle{font-size:1.7em; line-height:3.2em; background-size:100% 75%;}
+}
+
+
+@media (max-width: 500px) {
+.width100p{
+width:100%;
+position:relative;
+	display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.ptitle{
+font-size:1.7em;
+line-height:3.2em;background-size:100% 65%;
+
+overflow:hidden;
+}
+.toparea{
+	position:relative;
+	display:block;
+	h/*eight: 90px;*/
+	}
+
+}

@@ -1,0 +1,30 @@
+.upload_img{
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	padding: 10px;
+}
+.img_system_container{
+}
+
+.img_system_item{
+	float: left;
+	display: block;
+	height: 200px;
+	margin: 20px;
+}
+
+.img_system_item img{
+	display: block;
+	width: 200px;
+}
+
+.img_system_item input{
+	display: block;
+	width: 200px;
+}
+
+.img_system_item input:focus{
+	background-color: yellow; 
+}
